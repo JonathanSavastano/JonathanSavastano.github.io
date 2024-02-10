@@ -1,127 +1,56 @@
-h1{
-    color: orangered;
-    margin-bottom: -5px;
-}
-
-p{
-    margin-bottom: -10px;
-}
-
-.ui{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.row{
-    display: flex;
-}
-
-.cell{
-    border: none;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.cell:active{
-    outline: none;
-}
-
-/* 3x3 grid*/
-#b1{
-    border-bottom: 1px solid gray;
-    border-right: 1px solid gray;
-}
-
-#b2{
-    border-bottom: 1px solid gray;
-    border-right: 1px solid gray;
-    border-left: 1px solid gray;
-}
-
-#b3{
-    border-bottom: 1px solid gray;
-    border-left: 1px solid gray;
-}
-
-#b4{
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    border-right: 1px solid gray;
-}
-
-#b5{
-    border: 1px solid gray;
-}
-
-#b6{
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    border-left: 1px solid gray;
-}
-
-#b7{
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
-}
-
-#b8{
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
-    border-left: 1px solid gray;
-}
-
-#b9{
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-}
-
-/*Reset Button*/
-#but{
-    box-sizing: border-box;
-    width: 95px;
+/* Adjustments for Mobile */
+/* Ensure proper scaling of the webpage on different devices */
+html {
+    font-size: 16px;
+  }
+  
+  /* Set a maximum width for better readability on mobile */
+  .content-container {
+    max-width: 400px;
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the content */
+  }
+  
+  /* Adjust padding and margin for game instructions */
+  #ins {
+    margin-bottom: 20px;
+  }
+  
+  /* Ensure game grid fits within the container */
+  .ui {
+    width: 100%;
+  }
+  
+  /* Adjust cell size for better fit on mobile */
+  .cell {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+  }
+  
+  /* Adjust reset button size for better fit on mobile */
+  #but {
+    width: 100px;
     height: 40px;
-    border: 1px solid dodgerblue;
-    margin-left: auto;
-    border-radius: 8px;
-    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
-    background-color: whitesmoke;
-    color: dodgerblue;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-/*Player turn space*/
-#print{
-    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
-    color: dodgerblue;
-    font-size: 20px;
-}
-
-/* main container */
-#main{
-    text-align: center;
-}
-
-/* game instruction  text*/
-#ins{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-}
-
-  /* Button styling */
+    font-size: 16px;
+  }
+  
+  /* Ensure buttons are displayed side by side */
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Ensure button spans full width on mobile */
   button {
+    flex: 1; /* Each button takes equal space */
     padding: 15px 30px;
     font-size: 18px;
     margin-top: 20px;
-    margin-left: 20px;
-    background-color: #8D8741;
+    margin-left: 0; /* Remove left margin */
+    background-color: #8D8741; /* Keep button color */
     color: white;
     border: none;
     cursor: pointer;
@@ -131,18 +60,17 @@ p{
   
   /* Hover effect for buttons */
   button:hover {
-    background-color: #659DBD;
+    background-color: #659DBD; /* Keep hover color */
     transform: scale(1.25); /* Grow the button by 25% */
   }
-
+  
+  /* Background image and color */
   body {
     background-color: #DAAD86;
     background-image: url('Images/Mountains.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
   }
-
-  .content-container {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the content */
-    padding: 20px; /* Adjust the padding as needed */
-    margin: 60px;
-    font-size: 32px;
-  }
+  
