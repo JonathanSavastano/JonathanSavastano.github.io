@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body style="background-color: #BC986A; background-image: url('Images/GrandCanyon.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div>
+        <!-- Links as buttons at the top -->
+        <button onclick="window.location.href='Index.html'">Home</button>
+        <button onclick="window.location.href='Resume.html'">Resume</button>
+        <button onclick="window.location.href='Contact.html'">Contact</button>
+      </div>
+
+    <div class="content-container">
+        <div class="fonth">
+            <h1>Projects</h1>
+            <br><br>
+            <h3>Digital Clock:</h3>
+    
+            <div id="clock">8:10:45</div>
+    
+            <script src="clock.js"></script>
+    
+            <h3>Calculator:</h3>
+    
+            <div class="calculator">
+                <input type="text" id="result" readonly />
+                <div class="buttons">
+                    <button onclick="clearResult()">C</button>
+                    <button onclick="appendToResult('7')">7</button>
+                    <button onclick="appendToResult('8')">8</button>
+                    <button onclick="appendToResult('9')">9</button>
+                    <button onclick="appendToResult('/')">/</button>
+                    <button onclick="appendToResult('4')">4</button>
+                    <button onclick="appendToResult('5')">5</button>
+                    <button onclick="appendToResult('6')">6</button>
+                    <button onclick="appendToResult('*')">*</button>
+                    <button onclick="appendToResult('1')">1</button>
+                    <button onclick="appendToResult('2')">2</button>
+                    <button onclick="appendToResult('3')">3</button>
+                    <button onclick="appendToResult('-')">-</button>
+                    <button onclick="appendToResult('0')">0</button>
+                    <button onclick="appendToResult('.')">.</button>
+                    <button onclick="calculateResult()">=</button>
+                    <button onclick="appendToResult('+')">+</button>
+                </div>
+            </div>
+        
+            <script src="calculator.js" defer></script>
+    
+            <!-- smoke jumpers video game -->
+            <h3>Smoke Jumpers:</h3>
+            <p class="font1">
+                This is a game I made during a week break from school. It was an exercise in fully creating and 
+                releasing a game from start to finish, and because it was done all within a one week time frame, 
+                I made sure to keep the scope small. In Smoke Jumpers you are a wildland firefighter from the 1940s
+                and you have to use the spacebar to dodge the fireballs for as long as possible! 
+            </p>
+            <iframe frameborder="0" src="https://itch.io/embed/2456378" width="552" height="167"><a href="https://jonjoebaggins.itch.io/smokejumpersbrowser">Smoke Jumpers by JonjoeBaggins</a></iframe>
+    
+            <h3>Tic Tac Toe</h3>
+            <p>Click the button to be taken to Tic Tac Toe</p>
+            <button onclick="window.location.href='tic.html'">Play!</button>
+            <br><br>
+
+            <h3>Unreal Landscape:</h3>
+            <p class="font1">
+                I made this landscape and water material in unreal engine 4.27 back in my first semester of college 
+                at Southern New Hampshire University.
+            </p>
+            <img src="Images/UnrealLandscape.png">
+            <img src="Images/UnrealLandscape1.png">
+            <img src="Images/UnrealLandscape2.png">
+            <img src="Images/UnrealLandscape3.png">
+
+            <br><br>
+
+            <h1>Graphic Design School Projects:</h1>
+            <br><br>
+            <h6>Car Wash Poster</h6>
+
+            <img src="Images/CarWash.png">
+            <br><br>
+
+            <h6>Community Cup</h6>
+
+            <img src="Images/CommunityCup.png">
+            <br><br>
+
+            <h3>Color Theory</h3>
+            <br><br>
+            <h6>Complementary</h6>
+            <img src="Images/Complementary.jpg">
+            <br><br>
+            <h6>Analogous</h6>
+            <img src="Images/Analogous.jpg">
+            <br><br>
+            <h6>Mono Chromatic</h6>
+            <img src="Images/MonoChromatic.jpg">
+
+        </div>
+    </div>
+
+</body>
+</html>
