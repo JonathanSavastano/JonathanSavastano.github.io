@@ -12,6 +12,15 @@ html {
   font-size: 16px; /* Set base font size */
 }
 
+/* CSS for navigation buttons */
+div.navigation-container button {
+  padding: 30px 50px; /* Increase padding for bigger buttons */
+  font-size: 28px; /* Increase font size for better readability */
+  margin-left: 10px; /* Add some margin between buttons */
+  background-color: #8D8741;
+  color: white;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -43,6 +52,7 @@ button {
   font-size: 16px; /* Reduce button font size for better fit on mobile */
   margin: 10px 0; /* Adjust button margin for better spacing on mobile */
   background-color: #8D8741;
+  color: white;
 }
 
 /* Hover effect for buttons */
