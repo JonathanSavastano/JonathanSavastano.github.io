@@ -53,6 +53,7 @@ button {
   margin: 10px 0; /* Adjust button margin for better spacing on mobile */
   background-color: #8D8741;
   color: white;
+  border-radius: 10px; /* round corners */
 }
 
 /* Hover effect for buttons */
