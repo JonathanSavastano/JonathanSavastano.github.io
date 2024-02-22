@@ -109,3 +109,52 @@ img {
     font-size: 24px;
   }
 }
+
+/* popup styling */
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+p { 
+  text-align: center; 
+  font-weight: bold; 
+} 
+
+.heading {
+  display: flex;
+  align-items: center;
+  height: 28px;
+  justify-content: center;
+}
+
+.popup {
+  background-color: #8D8741;
+  width: 366px;
+  height: 222px;
+  border-radius: 26px;
+  text-align: center;
+  display: none;
+  transition: all 0.5s ease;
+  transition-duration: 1s;
+}
+
+#showbtn { 
+  margin: 200px auto; 
+} 
+
+#closebtn { 
+  margin-top: 3px; 
+} 
+
+.popup button { 
+  margin-top: 6px; 
+}
+
+.far.fa-check-circle { 
+  color: blue; 
+  font-size: 37px; 
+  margin-top: 7px; 
+} 
