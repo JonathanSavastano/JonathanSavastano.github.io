@@ -85,6 +85,7 @@ body {
 /* Calculator */
 .calculator {
   margin: 20px auto; /* Center calculator horizontally and provide vertical margin */
+  /* TODO: FIX CALCULATOR BUTTON STYLING */
 }
 
 input {
