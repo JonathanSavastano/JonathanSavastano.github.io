@@ -37,38 +37,19 @@ html {
   color: black;
 }
 
-/* div.navigation-container button {
-  padding: 30px 50px; /* Increase padding for bigger buttons */
- /* font-size: 28px; /* Increase font size for better readability */
- /* margin-left: 10px; /* Add some margin between buttons */
- /* margin-right: 10px; 
+button {
   background-color: #8D8741;
   color: white;
-  position: fixed; /* fix position of navbar */
- /* top: 0; /* set position to top of screen */
-/*} 
-
-/* Button styling */
-/* button {
-  padding: 12px 24px; /* Adjust button padding for better touch accessibility on mobile */
- /* font-size: 16px; /* Reduce button font size for better fit on mobile */
- /* margin: 10px 0; /* Adjust button margin for better spacing on mobile */
- /* background-color: #8D8741; 
-  color: white;
-  border-radius: 10px; /* round corners */  
-/*} 
+  text-align: center;
+  font-size: 16px;
+  padding: 14px 40px;
+}
 
 /* Hover effect for buttons */
 button:hover {
   background-color: #659DBD;
   transform: scale(1.25); /* Grow the button by 25% */
 }
-
-/*.buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-} */
 
 body {
   margin: 0;
