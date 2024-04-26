@@ -49,6 +49,7 @@ button {
 button:hover {
   background-color: #659DBD;
   transform: scale(1.25); /* Grow the button by 25% */
+  transition: 0.6s ease-in-out; /* make the transition smoother */
 }
 
 body {
