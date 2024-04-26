@@ -14,13 +14,61 @@ html {
 
 /* CSS for navigation buttons */
 
-div.navigation-container button {
+.navbar {
+  overflow: hidden;
+  background-color: #8D8741;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* div.navigation-container button {
   padding: 30px 50px; /* Increase padding for bigger buttons */
-  font-size: 28px; /* Increase font size for better readability */
-  margin-left: 10px; /* Add some margin between buttons */
+ /* font-size: 28px; /* Increase font size for better readability */
+ /* margin-left: 10px; /* Add some margin between buttons */
+ /* margin-right: 10px; 
   background-color: #8D8741;
   color: white;
-} 
+  position: fixed; /* fix position of navbar */
+ /* top: 0; /* set position to top of screen */
+/*} 
+
+/* Button styling */
+/* button {
+  padding: 12px 24px; /* Adjust button padding for better touch accessibility on mobile */
+ /* font-size: 16px; /* Reduce button font size for better fit on mobile */
+ /* margin: 10px 0; /* Adjust button margin for better spacing on mobile */
+ /* background-color: #8D8741; 
+  color: white;
+  border-radius: 10px; /* round corners */  
+/*} 
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #659DBD;
+  transform: scale(1.25); /* Grow the button by 25% */
+}
+
+/*.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+} */
 
 body {
   margin: 0;
@@ -47,22 +95,6 @@ body {
   margin-bottom: 20px; /* Increase margin for better separation between elements */
 }
 
-/* Button styling */
-button {
-  padding: 12px 24px; /* Adjust button padding for better touch accessibility on mobile */
-  font-size: 16px; /* Reduce button font size for better fit on mobile */
-  margin: 10px 0; /* Adjust button margin for better spacing on mobile */
-  background-color: #8D8741;
-  color: white;
-  border-radius: 10px; /* round corners */
-}
-
-/* Hover effect for buttons */
-button:hover {
-  background-color: #659DBD;
-  transform: scale(1.25); /* Grow the button by 25% */
-}
-
 /* Clock */
 #clock {
   font-size: 72px; /* Adjust clock font size for better fit on mobile */
@@ -79,12 +111,6 @@ input {
   margin-bottom: 10px;
   padding: 10px;
   font-size: 16px; /* Adjust input font size for better readability on mobile */
-}
-
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
 }
 
 /* Images */
