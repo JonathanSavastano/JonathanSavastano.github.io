@@ -1,5 +1,9 @@
 /* quiz styles */
 
+body {
+	background-image: url('Images/Mountains.jpeg'); 
+}
+
 /* style hamburger button */
 .hamburger-button {
 	background-color: #333;
