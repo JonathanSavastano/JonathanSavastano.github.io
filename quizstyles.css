@@ -6,18 +6,22 @@ body {
 
 /* style hamburger button */
 .hamburger-button {
-	background-color: #333;
+	background-color: #8D8741;
 	color:white;
 	padding: 15px;
 	font-size: 24px;
 	cursor: pointer;
+	padding-top: 10px;
+	padding-right: 10px;
   }
   
   /* style navigation links */
   .nav-links {
 	display: none;
-	background-color: #333;
+	background-color: #8D8741;
 	color: white;
+	max-width: 200px;
+	border-radius: 10px;
   }
   
   .nav-links a {
@@ -28,7 +32,8 @@ body {
   }
   
   .nav-links a:hover {
-	background-color: #111;
+	background-color: #DAAD86;
+	border-radius: 10px;
   }
 
 * {
