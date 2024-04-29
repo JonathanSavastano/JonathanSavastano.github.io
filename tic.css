@@ -20,6 +20,7 @@ div.navigation-container button {
     padding: 20px;
     font-size: 16px;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the content */
+    border-radius: 25px; 
   }
   
   /* Adjust padding and margin for game instructions */
