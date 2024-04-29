@@ -47,13 +47,14 @@ button {
   text-align: center;
   font-size: 16px;
   padding: 14px 40px;
+  border-radius: 10px;
 }
 
 /* Hover effect for buttons */
 button:hover {
   background-color: #659DBD;
   transform: scale(1.10); /* Grow the button by 10% */
-  transition: 0.6s ease-in-out; /* make the transition smoother */
+  transition: 0.3s ease-in-out; /* make the transition smoother */
 }
 
 body {
