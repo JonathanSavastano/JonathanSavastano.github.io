@@ -52,7 +52,7 @@ button {
 /* Hover effect for buttons */
 button:hover {
   background-color: #659DBD;
-  transform: scale(1.25); /* Grow the button by 25% */
+  transform: scale(1.10); /* Grow the button by 10% */
   transition: 0.6s ease-in-out; /* make the transition smoother */
 }
 
