@@ -14,6 +14,7 @@ html {
 
 /* style hamburger button */
 .hamburger-button {
+  margin-left: 20px;
   background-color: #8D8741;
   color:white;
   padding: 15px;
@@ -21,6 +22,7 @@ html {
   cursor: pointer;
   padding-top: 10px;
   padding-right: 10px;
+  position: fixed;
 }
 
 /* style navigation links */
@@ -30,10 +32,11 @@ html {
   color: white;
   max-width: 200px;
   border-radius: 10px;
+  position: fixed;
 }
 
 .nav-links a {
-  display: block;
+  display: grid;
   padding: 15px;
   color: white;
   text-decoration: none;
