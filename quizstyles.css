@@ -6,14 +6,14 @@ body {
 
 /* style hamburger button */
 .hamburger-button {
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	background-color: #8D8741;
 	color:white;
-	padding: 15px;
+	/*padding: 15px;*/
 	font-size: 24px;
 	cursor: pointer;
-	padding-top: 10px;
-	padding-right: 10px;
+	/*padding-top: 10px;
+	padding-right: 10px;*/
 	position: fixed;
   }
   
@@ -22,14 +22,16 @@ body {
 	display: none;
 	background-color: #8D8741;
 	color: white;
-	max-width: 200px;
-	border-radius: 10px;
+	width: 600px;
+	/*border-radius: 10px;*/
 	position: fixed;
+	margin-top: 62px;
+	text-align: center;
   }
   
   .nav-links a {
-	display: grid;
-	padding: 15px;
+	display: block;
+	padding: 30px;
 	color: white;
 	text-decoration: none;
   }
