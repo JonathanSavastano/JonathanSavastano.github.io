@@ -17,17 +17,18 @@ body {
 	position: fixed;
   }
   
-  /* style navigation links */
-  .nav-links {
-	display: none;
-	background-color: #8D8741;
-	color: white;
-	width: 600px;
-	/*border-radius: 10px;*/
-	position: fixed;
-	margin-top: 62px;
-	text-align: center;
-  }
+ /* style navigation links */
+.nav-links {
+    display: none;
+    background-color: #8D8741;
+    color: white;
+    width: 600px;
+    /*border-radius: 10px;*/
+    position: fixed;
+    margin-top: 62px;
+    text-align: center;
+    z-index: 1000; /* Ensure the navigation links appear above other content */
+}
   
   .nav-links a {
 	display: block;
@@ -151,5 +152,20 @@ li:nth-child(odd) {
 	.quiz,
 	.scores {
 		max-width: 90%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.containerNew {
+		width: 90%;
+    height: 400px; /* Adjust height as needed */
+	}
+
+	.quiz,
+	.scores {
+		max-width: 90%;
+	}
+	.nav-links {
+		max-width: 400px;
 	}
 }
