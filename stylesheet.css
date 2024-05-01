@@ -30,15 +30,16 @@ html {
   display: none;
   background-color: #8D8741;
   color: white;
-  max-width: 200px;
+  width: 600px;
   /*border-radius: 10px;*/
   position: fixed;
   margin-top: 62px;
+  text-align: center;
 }
 
 .nav-links a {
-  display: grid;
-  padding: 15px;
+  display: block;
+  padding: 30px;
   color: white;
   text-decoration: none;
 }
