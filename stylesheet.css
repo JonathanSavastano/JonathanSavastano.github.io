@@ -108,9 +108,15 @@ body {
 }
 
 /* Adjust padding and margin for paragraphs and headers */
-.font1, .fonth {
+.font1 {
   padding: 10px; /* Reduce padding for better spacing on mobile */
   margin-bottom: 20px; /* Increase margin for better separation between elements */
+}
+
+.fonth {
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Clock */
