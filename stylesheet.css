@@ -231,3 +231,10 @@ p {
   font-size: 37px; 
   margin-top: 7px; 
 } 
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
