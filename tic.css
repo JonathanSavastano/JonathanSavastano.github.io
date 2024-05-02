@@ -120,3 +120,35 @@ div.navigation-container button {
   background-color: #DAAD86;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+	.containerNew {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.containerNew {
+		width: 90%;
+	}
+
+	.quiz,
+	.scores {
+		max-width: 90%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.containerNew {
+		width: 90%;
+    height: 400px; /* Adjust height as needed */
+	}
+
+	.quiz,
+	.scores {
+		max-width: 90%;
+	}
+	.nav-links {
+		max-width: 400px;
+	}
+}
