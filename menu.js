@@ -1,5 +1,9 @@
 // Hamburger Menu script
 document.querySelector('.hamburger-button').addEventListener('click', function() {
-    document.querySelector('.nav-links').style.display = 
-    (document.querySelector('.nav-links').style.display == 'none') ? 'block' : 'none';
+    const navLinks = document.querySelector('.nav-links');
+    if (navLinks.style.display === 'block') {
+        navLinks.style.display = 'none';
+    } else {
+        navLinks.style.display = 'block';
+    }
 });
