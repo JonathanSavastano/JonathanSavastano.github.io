@@ -8,6 +8,17 @@ function WebDevProjects() {
       <h1>Web Development Projects</h1>
 
       <div className="project-grid">
+        {/* SLC Simple Sites */}
+        <div className="project-card">
+          <h3>Web Development Marketing Website</h3>
+          <p>
+            This is my personal website to advertise a website building service.
+          </p>
+          <a href="https://slcsimplesites.com" target="_blank" rel="noopener noreferrer" className="project-btn">
+            Visit Site
+          </a>
+        </div>
+        
         {/* Words per minute app */}
         <div className="project-card">
           <h3>Words Per Minute Counter</h3>
