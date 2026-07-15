@@ -9,6 +9,12 @@ const rootAssetsDir = join(repoRoot, 'assets');
 
 copyFileSync(join(buildDir, 'index.html'), join(repoRoot, 'index.html'));
 
+// GitHub Pages has no server-side router, so it 404s on any deep link
+// (e.g. /web-projects). Serving index.html as 404.html lets React Router
+// take over once the app loads.
+copyFileSync(join(buildDir, 'index.html'), join(buildDir, '404.html'));
+copyFileSync(join(buildDir, 'index.html'), join(repoRoot, '404.html'));
+
 mkdirSync(rootAssetsDir, { recursive: true });
 const newAssets = new Set(readdirSync(buildAssetsDir));
 
