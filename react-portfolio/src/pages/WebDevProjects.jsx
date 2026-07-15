@@ -8,6 +8,23 @@ function WebDevProjects() {
       <h1>Web Development Projects</h1>
 
       <div className="project-grid">
+        {/* DevOps Resume Site */}
+        <div className="project-card">
+          <h3>DevOps Resume Site</h3>
+          <p>
+            A static resume site hosted on AWS S3 and CloudFront, provisioned entirely with
+            Terraform and deployed automatically via GitHub Actions on every push to main.
+            The site itself is intentionally simple &mdash; it's a showcase of infrastructure-as-code
+            and CI/CD pipeline skills rather than front-end design.
+          </p>
+          <a href="https://d2sl51vyca4dry.cloudfront.net/" target="_blank" rel="noopener noreferrer" className="project-btn">
+            Visit Site
+          </a>
+          <a href="https://github.com/JonathanSavastano/devops-resume" target="_blank" rel="noopener noreferrer" className="project-btn">
+            View Code
+          </a>
+        </div>
+
         {/* SLC Simple Sites */}
         <div className="project-card">
           <h3>Web Development Marketing Website</h3>

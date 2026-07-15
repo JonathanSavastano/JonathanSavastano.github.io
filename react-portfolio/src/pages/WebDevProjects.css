@@ -55,6 +55,11 @@
   font-weight: 600;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  margin-right: 0.75rem;
+}
+
+.project-btn:last-child {
+  margin-right: 0;
 }
 
 .project-btn:hover {
